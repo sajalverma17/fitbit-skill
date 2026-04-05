@@ -1,0 +1,32 @@
+{
+  "name": "fitbit-skill",
+  "version": "0.2.0",
+  "description": "AI agent skill for the Fitbit Web API",
+  "settings": [
+    {
+      "name": "Fitbit Client ID",
+      "description": "Your Fitbit App's Client ID from https://dev.fitbit.com/apps",
+      "envVar": "FITBIT_CLIENT_ID"
+    },
+    {
+      "name": "Fitbit Client Secret",
+      "description": "Your Fitbit App's Client Secret from https://dev.fitbit.com/apps",
+      "envVar": "FITBIT_CLIENT_SECRET"
+    },
+    {
+      "name": "Fitbit Redirect URI",
+      "description": "Your Fitbit App's Redirect URI from https://dev.fitbit.com/apps",
+      "envVar": "FITBIT_REDIRECT_URI"
+    },
+    {
+      "name": "(Optional) Fitbit Access Token",
+      "description": "Optional and can be left blank. The extension will set this after you allow it to access your Fitbit data.",
+      "envVar": "FITBIT_ACCESS_TOKEN"
+    },
+    {
+      "name": "(Optional) Fitbit Refresh Token",
+      "description": "Optional and can be left blank. The extension will set this after you allow it to access your Fitbit data.",
+      "envVar": "FITBIT_REFRESH_TOKEN"
+    }
+  ]
+}
