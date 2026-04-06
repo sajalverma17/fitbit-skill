@@ -4,7 +4,7 @@ This extension equips your AI assistant with a skill to access your Fitbit healt
 
 ## Requirements
 
-- A Fitbit Developer account with an Application registered with Fitbit (see [Registering an application](https://dev.fitbit.com/build/reference/web-api/developer-guide/getting-started/#Registering-an-Application))
+- A Fitbit Developer account with a registered Application (see [Registering an Application](https://dev.fitbit.com/build/reference/web-api/developer-guide/getting-started/#Registering-an-Application))
 - Allow your AI assistant to execute `curl` shell commands
 
 ## Installation
@@ -16,7 +16,7 @@ Gemini
 gemini extensions install https://github.com/sajalverma17/fitbit-skill
 ```
 
-You will be prompted to configure your Fitbit-registered Application's details during installation. Find them in your [Fitbit Developer account](https://dev.fitbit.com/apps). These details are saved in an `.env` file within the extension's directory for future use.
+You will be prompted to enter your Fitbit-registered Application details from your [Fitbit Developer account](https://dev.fitbit.com/apps) during installation. These details are saved in an `.env` file within the extension's directory for future use.
  - `FITBIT_CLIENT_ID`
  - `FITBIT_CLIENT_SECRET`
  - `FITBIT_REDIRECT_URI`
